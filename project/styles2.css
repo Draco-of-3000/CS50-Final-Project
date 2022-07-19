@@ -1,0 +1,93 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font: 700 1em "News Cycle", sans-serif;
+  letter-spacing:.15em;
+  color: #ff6;
+  background: #000;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+  
+section {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+} 
+
+.start {
+    font-size: 200%;
+    width: 14em;
+    margin: -4em 0 0 (- 14em / 2);
+    text-align: center;
+    cursor: pointer;
+}
+    
+span {
+      color: rgb(75, 213, 238); 
+}
+    
+
+
+  
+.intro {
+    width: 15em;
+    margin: 0 0 0 (- 15em / 2);
+    font-size: 200%;
+    font-weight: 400;
+    color: rgb(75, 213, 238);
+    opacity: 0;
+    animation: intro 6s ease-out 1s;
+}
+  
+
+.crawl {
+    /* Position the element to adjust the top property in the animation */
+    position: relative;
+    /* Making sure the text is fully off the screen at the start and end of the animation */
+    top: -100px;
+    /* Defines the skew origin at the very center when we apply transforms on the animation */
+    transform-origin: 50% 100%;
+    /* Adds the crawl animation, which plays for one minute */
+    animation: crawl 60s linear;
+}
+
+
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }  
+  20% { 
+    opacity: 1; 
+  }
+  90% { 
+    opacity: 1; 
+  }
+  100% { 
+    opacity: 0;
+  }
+}
+
+
+@keyframes crawl {
+  0% { 
+    top: 100%; 
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% { 
+    top: 20%; 
+    opacity: 0;
+  }
+}

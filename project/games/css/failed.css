@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body, html {
+    height: 90%;
+}
+
+.header {
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 220px;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 58px;
+    color: crimson;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    background-image: url(https://c.tenor.com/uyGbTp6UJZkAAAAC/emperor-palpatine-evil-laugh.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    overflow: hidden;
+}
+
+.button {
+    background-color: hsl(352, 93%, 38%);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    vertical-align: middle;
+}

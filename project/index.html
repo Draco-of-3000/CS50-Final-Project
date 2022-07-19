@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Earth's Last Hope</title>
+</head>
+<body>
+    <div class="fade">
+        <a href="./games/trivia.html" class="button">Click me to save the world!</a>
+        <audio id="audio" autoplay loop>
+            <source src="media/André Rieu - O Fortuna (Carmina Burana - Carl Orff).mp3" type="audio/mp3">
+        </audio>
+        <button id="button">Click me for audio
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </div>
+
+
+    <section class="save-earth">
+        
+        <div class="crawl">
+
+            <div class="titles">
+                <h1>Humanity's Last Hope</h1>
+            </div>
+    
+            <p>It is a period of mythical intrusion. A world eater, from a different galaxy, has eaten his way through the milky way galaxy and has arrived on Earth.</p>      
+            <p>Every last human on earth has been sent to a different dimension, you are the last human on earth and have been chosen to represent humanity, if you fail, it's the end of the world as we know it.</p>
+            <p>You are faced with a series of challenges, three tasks to complete to save humanity, there is no room for failure, the fate of humanity RESTS ON YOU…</p>
+            <p>.</p>
+            <p>.</p>
+            <p>Click The Button At The Top Left To Continue...</p>
+        </div>
+    </section>
+     
+    <div class="button-container">
+
+    </div>
+
+    <script>
+        const button = document.querySelector("#button");
+        const icon = document.querySelector("#button > i");
+        const audio = document.querySelector("audio");
+
+        button.addEventListener("click", () => {
+            if (audio.paused) {
+                audio.volume = 1.0;
+                audio.play();
+                icon.classList.remove('fa-volume-up');
+                icon.classList.add('fa-volume-mute');
+            } else {
+                audio.pause();
+                icon.classList.remove('fa-volume-mute');
+                icon.classList.add('fa-volume-up');
+            }
+            button.classList.add("fader");
+        });
+
+    </script>
+</body>
+</html>
+

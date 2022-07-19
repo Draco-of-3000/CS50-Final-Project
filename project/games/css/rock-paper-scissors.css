@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+button {
+    margin-left: 20px;
+}
+
+.button-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px 60px;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    background-color: #0000003d;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 250px;
+}
+
+.results {
+    color: #fff;
+    display: block;
+    background-color: #fff;
+    padding: 40px 60px;
+    position: relative;
+    background-color: #0000003d;
+    filter: drop-shadow(30px 10px 4px #940b0bec);
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: px;
+    width: 60%;
+    font-weight: bold;
+}
+
+p {
+    color: #fff;
+    background-color: #0000003d;
+    filter: drop-shadow(30px 10px 4px #940b0bec);
+}
+
+.finale {
+    font-size: 18px;
+    display: block;
+    background-color: #0000003d;
+    filter: drop-shadow(30px 10px 4px #940b0bec);
+    padding: 40px 60px;
+    position: relative;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 2;
+    margin-left: 250px;
+    margin-right: px;
+    width: 60%;
+}
+
+.header {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 48px;
+    filter: drop-shadow(30px 25px 2px #e40606);
+    color: crimson;
+}
+
+body, html {
+    height: 90%;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    background-image: url(https://images7.alphacoders.com/693/thumb-1920-693522.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90%;}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #0000003d;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    filter: drop-shadow(30px 10px 4px #940b0bec);
+    color: rgb(255, 255, 255);
+}
+
+audio {
+    display: none;
+}
+
+.header2 {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#blink {
+    font-size: 20px;
+    font-weight: bold;
+    animation: animate 
+    3.5s linear infinite;
+    background-color: #0000003d;
+    filter: drop-shadow(30px 25px 2px #e40606);
+    color: rgb(247, 241, 242);
+    margin-bottom: 50px;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

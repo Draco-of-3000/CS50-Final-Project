@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/002/192/810/large/vladimir-manyukhin-.jpg);
+}
+
+.scratch {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 48px;
+    filter: drop-shadow(30px 25px 2px #e40606);
+    color: crimson !important;
+}
+
+
+.header {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}

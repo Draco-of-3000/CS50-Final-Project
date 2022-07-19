@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body, html {
+    height: 90%;
+}
+
+.header {
+  position: fixed;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 58px;
+    color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
